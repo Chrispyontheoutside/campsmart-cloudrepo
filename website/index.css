@@ -1,0 +1,138 @@
+:root{
+    --main-colors:#22223B;
+    --accent-color:var(--main-colors);
+    --terminal-bg-color:#;
+    font-size:20px;
+}
+html{
+    scroll-behavior: smooth!important;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+.hero{
+    padding-top: 1em;
+}
+.is-primary{
+    background-color: #FFFFFF;
+}
+.subtitle{
+    font-family: 'Open Sans';
+}
+.learn-att{
+    background: -webkit-linear-gradient(25deg, rgba(203,153,126,1) 0%, rgba(96,108,56,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.seperator{
+    background-color: #4a4e69;
+    border-radius: 1em;
+}
+.aboutme{
+    color: #FFFFFF;
+}
+.figure {    
+    position: relative;
+    width: 360px; /* can be omitted for a regular non-lazy image */
+    max-width: 100%;
+    text-decoration: underline;
+}
+.figure img.image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .3s;
+}
+.figure:hover img.image-hover {
+  opacity: 1;
+}
+
+.current-work{
+    font-family: 'Montserrat';
+    font-size: 2;
+}
+.hero{
+    background-color: #FFFFFF;
+    
+}
+.intro-title{
+    font-family: "Montserrat";  
+    background: -webkit-linear-gradient(25deg, rgba(203,153,126,1) 0%, rgba(96,108,56,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.is-beigegreen{
+    margin-top: 1em;
+    padding-bottom: 8em;
+    background-color: #7f5539;
+}
+
+.navigations{
+    background-color: #7f5539;
+}
+.content-title{
+    color:#ffe8d6;
+    padding-top: 4em;
+    font-family: 'Nunito';
+}
+.content-body{
+    font-size: 0.8em;
+}
+.skills{
+    margin-top: -10em;
+}
+.title{
+    color: #7f5539;
+}
+.text-color-beige{
+    color: #9c6644;
+}
+
+.navbar-item:hover{
+    background-color: hotpink;
+    text-decoration: none;
+    color:red;  
+}
+.content h1{
+    color: #7f5539;
+}
+.has-text-primary{
+    color: #9c6644!important;
+}
+
+.footer{
+    padding-bottom: 1.5em;
+}
+.nav-logo{
+    color: white;;    
+}
+.nav-logo:hover{
+    color: #ffe8d6 !important;
+}
+.card-content{
+    padding: 1em;
+}
+.card-header-title{
+    color:navy;
+}
+
+.terminal{
+    color: white;
+    border-top: 0.8em solid #ffe8d6;
+    border-top-color: white;
+    font-family: 'Open Sans';
+    background-color:#2D3142;
+    border-radius: 0.3em;
+    padding: 1.25em 0.25em 0.25em 1em;
+    text-align: left!important;
+}
+
+.learning-title{
+    margin-top: 3em!important;
+}
